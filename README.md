@@ -1,13 +1,18 @@
 #About
- Maintaining hygiene in train washrooms is a critical challenge due to their confined spaces, frequent use, and limited ventilation. Traditional manual cleaning and flushing methods are often insufficient to ensure consistent cleanliness, resulting in discomfort and health risks for passengers. This project proposes an Automatic Sanitization and Washroom Occupancy Detection System designed specifically for train washrooms. By leveraging sensor-based automation, the system improves hygiene standards, reduces manual intervention, and optimizes resource usage.
+
+
+Maintaining hygiene in train washrooms is a critical challenge due to their confined spaces, frequent use, and limited ventilation. Traditional manual cleaning and flushing methods are often insufficient to ensure consistent cleanliness, resulting in discomfort and health risks for passengers. This project proposes an Automatic Sanitization and Washroom Occupancy Detection System designed specifically for train washrooms. By leveraging sensor-based automation, the system improves hygiene standards, reduces manual intervention, and optimizes resource usage.
 
 The system integrates PIR sensors for motion detection and ultrasonic sensors for proximity detection, ensuring reliable identification of user presence and exit. An LED light remains ON while a user is detected and turns OFF only after the person has exited the washroom. A servo motor automates the flushing mechanism, activating immediately upon user exit and holding for 5 seconds before resetting. The implementation prioritizes real-time detection accuracy, eliminating false triggers and ensuring effective flushing with minimal resource wastage.
 
 
 #Problem Statement
+
 Train washrooms are among the most frequently used public facilities, often with confined spaces and limited ventilation. The high frequency of use creates significant hygiene challenges, with traditional manual cleaning and flushing methods proving to be insufficient. Inadequate hygiene in such environments can lead to the spread of diseases, passenger discomfort, and resource wastage. There is a pressing need for an automated system that ensures cleanliness, prevents contamination, and conserves resources in train washrooms.
 
 #3   Requirements Specification	
+
+
 3.1 Hardware Requirements
 1.	Microcontroller:
 •	Arduino Uno:
